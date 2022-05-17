@@ -72,59 +72,209 @@
     background-color: #ffe5c4c8;
     border-radius: 5px; }
 
-.footer {
-  border: 2px solid #A8C73A;
-  background-color: #ffe5c4b9;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+.footer .footer__insta {
+  transition: all 1s; }
 
-.footer__lista {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1.2rem; }
+.footer .footer__insta:hover {
+  transform: 50px;
+  width: 50px;
+  height: 50px; }
 
-.footer__derechos {
-  font-size: 16px;
+.footer .footer__wsp {
+  transition: all 1s; }
+
+.footer .footer__wsp:hover {
+  transform: 50px;
+  width: 50px;
+  height: 50px; }
+
+.footer .footer__ubi {
+  transition: all 1s; }
+
+.footer .footer__ubi:hover {
+  transform: 50px;
+  width: 50px;
+  height: 50px; }
+
+.nosotros {
   margin: 1rem;
-  height: 30px; }
+  padding: 3rem;
+  width: 91%;
+  display: inline-block; }
+  .nosotros .nosotros__titulo {
+    color: rgba(0, 0, 0, 0.862);
+    width: 100%;
+    height: auto;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px; }
+  .nosotros .nosotros__descripcion {
+    display: inline-block;
+    width: 85%;
+    height: 750px;
+    margin: 5rem;
+    padding: 1rem;
+    background-color: bisque;
+    overflow: hidden;
+    border-radius: 20px; }
+  .nosotros .nosotros__parrafo {
+    width: 40%;
+    height: 700px;
+    margin: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Dancing Script',cursive;
+    font-size: 25px;
+    line-height: 2rem;
+    overflow: hidden; }
+  .nosotros .nosotros__subtitulo {
+    margin: 6rem;
+    font-size: 35px;
+    font-style: italic;
+    color: #156D3F; }
+  .nosotros .nosotros__imagen {
+    width: 48%;
+    height: 700px;
+    margin: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    overflow: hidden; }
+  .nosotros .nosotros__foto {
+    background-position: center;
+    border-radius: 20px; }
 
-.footer__texto {
-  font-size: 16px;
-  margin: 0; }
+.np {
+  display: inline-block;
+  width: 100%; }
+  .np .np__titulo {
+    height: 80px;
+    margin: 4rem;
+    padding: 2rem;
+    color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px; }
+  .np .np__desayunos {
+    margin: 4rem;
+    background-color: bisque;
+    border-radius: 10px; }
+  .np .np__nuestrosdesayunos {
+    color: rgba(0, 0, 0, 0.862);
+    text-align: end;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px;
+    margin: 1rem; }
+  .np .np__imgdesayuno {
+    margin: 1rem;
+    padding: 3px;
+    border-radius: 20px; }
+  .np .np__waffles {
+    margin: 4rem;
+    background-color: bisque;
+    border-radius: 10px; }
+  .np .np__nuestroswaffles {
+    color: rgba(0, 0, 0, 0.862);
+    text-align: start;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px;
+    margin: 1rem; }
+  .np .np__imgwaffles {
+    margin: 1rem;
+    padding: 0.6rem;
+    border-radius: 20px; }
+  .np .np__bombones-budines {
+    margin: 4rem;
+    border-radius: 10px; }
+  .np .np__bombones {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 2rem;
+    padding: 2.5rem; }
+  .np .np__nuestrosbombones {
+    color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px;
+    margin: 0rem; }
+  .np .np__imgbombones {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 20px; }
+  .np .np__budines {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: bisque;
+    margin: 2rem;
+    padding: 2.5rem; }
+  .np .np__nuestrosbudines {
+    color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px;
+    margin: 0rem; }
+  .np .np__imgbudines {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 20px; }
 
-.footer__insta {
-  transition: all 1s; }
-
-.footer__insta:hover {
-  transform: 50px;
-  width: 50px;
-  height: 50px; }
-
-.footer__wsp {
-  transition: all 1s; }
-
-.footer__wsp:hover {
-  transform: 50px;
-  width: 50px;
-  height: 50px; }
-
-.footer__ubi {
-  transition: all 1s; }
-
-.footer__ubi:hover {
-  transform: 50px;
-  width: 50px;
-  height: 50px; }
-
-.footer__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 65px; }
-
-.header__open {
-  display: none; }
-
-.salir {
-  display: none; }
+.tiendas {
+  display: inline-block;
+  width: 100%; }
+  .tiendas .tiendas__titulo {
+    height: 40px;
+    margin: 3rem;
+    padding: 3rem;
+    color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px; }
+  .tiendas .tiendas__subtitulo {
+    height: 3px;
+    margin: 2rem;
+    padding: 2rem;
+    color: rgba(0, 0, 0, 0.862);
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: black 1px 1px 4px;
+    overflow: hidden; }
+  .tiendas .tiendas__cont {
+    display: inline-block;
+    margin: 4rem;
+    height: 600px; }
+  .tiendas .tiendas__tabla {
+    display: inline-block;
+    margin: 3rem;
+    width: 35%;
+    height: 550px;
+    margin: 3rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    background-color: bisque;
+    overflow: hidden;
+    border-radius: 20px; }
+  .tiendas .tiendas__img {
+    display: inline-block;
+    width: 45%;
+    height: 550px;
+    overflow: hidden;
+    margin: 0rem;
+    padding: 3rem;
+    border-radius: 20px; }
+  .tiendas .tiendas__foto {
+    border-radius: 20px;
+    margin: 0rem;
+    padding: 0; }
