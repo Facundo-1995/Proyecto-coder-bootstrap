@@ -439,7 +439,7 @@
     /* FOOTER */
 
 
-        /* .footer{
+        .footer{
         border: 2px solid #A8C73A;
         background-color:#ffe5c4b9;
         border-radius: 5px; 
@@ -521,7 +521,7 @@
     }
     .salir{
         display: none;
-    } */
+    }
 
 
     /* MEDIA QUERYS */
