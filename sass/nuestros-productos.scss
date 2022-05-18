@@ -5,13 +5,11 @@
 
     .np__titulo{
         height: 80px;
-        margin: 4rem;
-        padding: 2rem;
-        color: rgba(0, 0, 0, 0.862);
+        margin: 5rem;
+        padding: 5rem;
         text-align: center;
-        font-size: 35px;
-        font-style: italic;
-        text-shadow: black 1px 1px 4px;
+        @extend .title-Template;
+        
         
 
     }

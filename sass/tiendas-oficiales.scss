@@ -8,14 +8,12 @@
 
         
         height: 40px;
-        margin: 3rem;
-        padding: 3rem;
-       
-        color: rgba(0, 0, 0, 0.862);
+        margin: 6rem;
+        padding: 5rem;
         text-align: center;
-        font-size: 50px;
-        font-style: italic;
-        text-shadow: black 1px 1px 4px;
+
+        @extend .title-Template;
+        
     }
 
     .tiendas__subtitulo{
@@ -24,7 +22,7 @@
 
         height: 3px;
         margin: 2rem;
-        padding: 2rem;
+        padding: 4rem;
         color: rgba(0, 0, 0, 0.862);
         text-align: center;
         font-size: 35px;
